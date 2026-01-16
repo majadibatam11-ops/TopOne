@@ -7,3 +7,4 @@
   NODE_ENV = "production"
   DEBUG = "vite:*"
   NPM_CONFIG_LOGLEVEL = "verbose"
+  NPM_CONFIG_PRODUCTION = "false"
