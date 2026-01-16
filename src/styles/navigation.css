@@ -1,0 +1,99 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem 0;
+  z-index: 1000; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+  .nav-logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .logo-img {
+    height: 50px; 
+    width: auto;
+  }
+  
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #FFD700;
+  }
+  body, .app {
+    padding-top: 40px; 
+  }
+
+  .menu-toggle {
+    display: none;
+    background: transparent;
+    border: 1px solid #444;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    gap: 4px;
+  }
+  .menu-toggle .bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: white;
+    margin: 3px 0;
+  }
+
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .logo-img {
+      height: 40px;
+    }
+    .menu-toggle {
+      display: inline-flex;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+      padding-top: 0.5rem;
+    }
+    .nav-links.open {
+      display: flex;
+    }
+  }
+  

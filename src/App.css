@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Base & Reset */
+body, html, #root, .app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif; /* Body font */
+  background-color: #f5f0e1;
+  color: #222;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', Arial, sans-serif; /* Headings font */
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.6; /* improves readability */
+}
+
+/* Footer */
+.footer, .footer-container, .footer-grid, .footer-list, .footer-list li a {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.footer-title, .footer-subtitle {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+/* Main content styling */
+.main-content {
+  padding: 0;
+}
+
+/* Example page sections */
+.main-content h1, 
+.main-content h2, 
+.main-content h3 {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Footer (from your previous CSS) */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 3rem 1rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-title {
+  color: #FFD700; /* yellow */
+  margin-bottom: 1rem;
+}
+
+.footer-subtitle {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+.footer-text {
+  color: #ccc;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+}
+
+.footer-list li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-list li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-list li a:hover {
+  color: #FFD700;
+}
+
+.footer-emergency {
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  text-align: center;
+  color: #ccc;
+}
