@@ -8,3 +8,4 @@
   DEBUG = "vite:*"
   NPM_CONFIG_LOGLEVEL = "verbose"
   NPM_CONFIG_PRODUCTION = "false"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
